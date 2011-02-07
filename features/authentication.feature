@@ -21,5 +21,4 @@ Feature: Authentication
       | subject                   | body                                                |
       | Confirmation instructions | You can confirm your account through the link below |
     And I should be on the sign in page
-    And I should see "You need to sign in or sign up before continuing."
-#    And I should see "You have signed up successfully. However, we could not sign you in because your account is unconfirmed."
+    And I should see "You have signed up successfully. However, we could not sign you in because your account is unconfirmed."
